@@ -1,0 +1,138 @@
+/*general site rules*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(../media/thumbnails/autumn-light.jpg)no-repeat fixed;
+    background-size: auto 100%;
+    font-family: Montserrat, sans-serif;
+    z-index: -100;
+}
+
+/*
+.space-tb {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+*/
+
+.masthead {
+    background-color: #1abc9c;
+    /*    padding-top: 5rem;*/
+}
+
+.mybackground1,
+.mybackground3,
+.mybackground5 {
+    background-color: #1a53ff;
+    /*    color: #ffffff;*/
+}
+
+.mybackground2,
+.mybackground4 {
+    background-color: #1abc9c;
+}
+
+/*table of contents rules*/
+
+.toc-image {
+    border-radius: 2rem;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+
+.toc-image:hover {
+    opacity: .6;
+}
+
+/*refections page rules*/
+
+.ref-image {
+    border-radius: 2rem;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+.ref-image:hover {
+    opacity: .6;
+}
+
+.ref-button {
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+.ref-button:hover {
+    opacity: .6;
+}
+
+/*
+.essay {
+    margin: 0 3rem 0 3rem;
+}
+*/
+
+/*
+.essay-thumb {
+    margin: 2rem;
+}
+*/
+
+
+/*welcome page rules*/
+
+.site-title {
+    height: 100vh;
+}
+
+
+/*
+.title-text {
+    background-color: white;
+    color: red;
+    font-size: 6rem;
+    line-height: 8rem;
+    margin: 0;
+    padding: 0 2rem 0 2rem;
+}
+*/
+
+/*
+.course-text {
+    background-color: white;
+    color: red;
+    font-size: 5rem;
+    line-height: 8rem;
+    margin: 0;
+    padding: 0 2rem 0 2rem;
+}
+*/
+
+.welcome-block {
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+.welcome-block a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.welcome-block:hover {
+    opacity: .5;
+}
+
+.background-video {
+    background: url(../media/thumbnails/autumn.jpg) no-repeat;
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: fixed;
+    width: auto;
+    z-index: -100;
+}
